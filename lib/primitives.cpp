@@ -31,17 +31,17 @@ void triangle::set_points(vec3 _a, vec3 _b, vec3 _c)
 
 }
 
-vec3 triangle::get_a()
+vec3 triangle::get_a() const
 {
   return this->a;
 }
 
-vec3 triangle::get_b()
+vec3 triangle::get_b() const
 {
   return this->b;
 }
 
-vec3 triangle::get_c()
+vec3 triangle::get_c() const
 {
   return this->c;
 }

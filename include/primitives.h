@@ -17,9 +17,9 @@ namespace primitives{
 
       void set_points(vec3 _a, vec3 _b, vec3 _c);
 
-      vec3 get_a();
-      vec3 get_b();
-      vec3 get_c();
+      vec3 get_a() const;
+      vec3 get_b() const;
+      vec3 get_c() const;
 
     private:
 

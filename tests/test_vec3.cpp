@@ -33,7 +33,7 @@ const vec3 vec_product_test_vector2 = vec3(4, 5, 6);
 TEST(Vector, ComparisonTest)
 {
   EXPECT_EQ(test_vector, test_vector);
-  EXPECT_NE(test_vector, expected_vec_add);
+  EXPECT_NE(expected_vec_add, test_vector);
 }
 
 //Addition Test
