@@ -146,7 +146,8 @@ bool vec3::operator !=(vec3 arg) const
     }
 }
 
-float& vec3::operator[](int arg) {
+float& vec3::operator[](int arg)
+{
     switch(arg) {
         case 0: return this->x;
         case 1: return this->y;
